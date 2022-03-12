@@ -6,7 +6,7 @@ Recommended Analysis
 
 - Which product categories drive the biggest profits? Is this the same across store locations?
 
--Can you find any seasonal trends or patterns in the sales data?
+- Can you find any seasonal trends or patterns in the sales data?
 
 - Are sales being lost with out-of-stock products at certain locations?
 

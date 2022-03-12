@@ -1,4 +1,5 @@
 # Mexico-Toys
+Tech Stack- Power BI
 
 Sales & inventory data for a fictitious chain of toy stores in Mexico called Mexico Toys, including information about products, stores, daily sales transactions, and current inventory levels at each location.
 
@@ -19,4 +20,6 @@ b) From the sales projectory, the toy category carried the highest sales amount 
 c) Many products like mini basketball hoop and  playdoh playset amoung other products had low stocks which affected their sales records.
 
 d) The total amount of stocks in inventory was $410.240 accross all locations. 
+
+Other insights can be seen from the dashboard uploaded to this repository.
 

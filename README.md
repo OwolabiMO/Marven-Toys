@@ -42,3 +42,10 @@ I followed this approach in modelling the solution for this business Challenge:
 The main goal of this case study is to assist mexico Toys in making business driven decision by analysing key performing aspects of its performance data and answering key questions that speaks to the business needs.  I leverage ob Microsoft Power BI for my data analysis and visualization.
 On the asspect of data understanding, the data provided to me contained four different worksheet which are inventory, products, sales and stores. The inventory worksheet contain store ID, product ID, stock on hand. The product worksheet contains Product ID, Product name, products category, product cost and product price. Below are the images of the worksheets attached.
 
+([Data1](https://user-images.githubusercontent.com/62305424/158242402-ffec39eb-e3b9-4e36-a1a9-8daf5f9f0f88.PNG))
+![Data2](https://user-images.githubusercontent.com/62305424/158242578-f2fe7b5b-3eb4-49a6-a791-da416302286e.PNG)
+![data3](https://user-images.githubusercontent.com/62305424/158242616-9e4bc601-7bab-4a50-a12c-fd49a3e1b58e.PNG)
+![data4](https://user-images.githubusercontent.com/62305424/158242685-f3208e9b-1156-46bd-92a0-748ca903dc5b.PNG)
+
+
+b) From the sales projectory, the toy category carried the highest sales amount than other category. In the last 21 days electronic had the lowest sales of $72,169.93 than others in all locations.

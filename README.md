@@ -37,7 +37,7 @@ I followed this approach in modelling the solution for this business Challenge:
 - Data Visualization 
 - Recommendation
 
-# Business Understanding
+Business Understanding
 
 The main goal of this case study is to assist mexico Toys in making business driven decision by analysing key performing aspects of its performance data and answering key questions that speaks to the business needs.  I leverage ob Microsoft Power BI for my data analysis and visualization.
 On the asspect of data understanding, the data provided to me contained four different worksheet which are inventory, products, sales and stores. The inventory worksheet contain store ID, product ID, stock on hand. The product worksheet contains Product ID, Product name, products category, product cost and product price. Below are the images of the worksheets attached.
@@ -48,4 +48,27 @@ On the asspect of data understanding, the data provided to me contained four dif
 ![data4](https://user-images.githubusercontent.com/62305424/158242685-f3208e9b-1156-46bd-92a0-748ca903dc5b.PNG)
 
 
-b) From the sales projectory, the toy category carried the highest sales amount than other category. In the last 21 days electronic had the lowest sales of $72,169.93 than others in all locations.
+Data Preparation
+This stage started by importing the csv file into the power bi and load into power query editor for proper data preparation. With the help of power query i shaped and all tables accodring to provide an accurate result. I ensured the data types were accurate and also ensure colomn quality was 100%. 
+
+![1](https://user-images.githubusercontent.com/62305424/158252444-0ed8d373-1493-4e70-b398-b33fc3d4a280.PNG)
+![2](https://user-images.githubusercontent.com/62305424/158252476-f848b649-04cc-4971-b224-443363705d18.PNG)
+![3](https://user-images.githubusercontent.com/62305424/158252499-e86bea2d-fa09-420d-94c3-c8eecd579350.PNG)
+![4](https://user-images.githubusercontent.com/62305424/158252518-089a6c7c-98a4-4de2-b5fb-338e274def47.PNG)
+
+
+Since the sales and store table had a date colmn, I had to create a date look up table so as to be a provide a table which help in creating relationship with other tables that have dates colomn in the data modelling stage. I created a rolling calender that which will not require updating everytime. Firstly i get into Get data function and then navigate to blank query at the bottom then i use M-code to generated a starting date =date(1992,5,10) in the function bar and then click the fx icon to add a new column where i entered the following formula:
+
+list.date(Source,number,From(DateTime.LocalNow())-Number.From(Source),#duration(1,0,0,0))
+
+![roll1](https://user-images.githubusercontent.com/62305424/158252654-a84627f2-c168-4add-a1ba-4c359090e6b5.PNG)
+
+![roll2](https://user-images.githubusercontent.com/62305424/158252672-2c5e14f4-2a38-4bad-8899-67680d2634f4.PNG)
+
+
+
+After entering the fomular i click enter to generate a list of date. I then naviagte to top icon and click on 'To table' which i then click okay. After creating the table, i added other columns in the calender table like start of the week, year etc
+
+![roll3](https://user-images.githubusercontent.com/62305424/158253040-24be6965-6836-411b-b30d-f44a0dd48bb9.PNG)
+
+After entering the fomular i click enter to generate a list of date. I then naviagte to top icon and click on 'To table' which i then click okay. After creating the table, i added other columns in the calender table like start of the week, year etc

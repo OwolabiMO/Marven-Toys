@@ -85,4 +85,3 @@ To answer key questions that would be beneficial to business decisions, there is
 
 ![reveue](https://user-images.githubusercontent.com/62305424/158261627-3f023c34-6b83-47c0-9f00-023765ec1e0f.PNG)
 
-To answer key questions that would be beneficial to business decisions, there is need to analyse the data provided to gain insights which can then be transform into visuals for the stakeholders. Firstly to determine revenue i had to calculate the sumx function of sales units and mutiply them with product price. From the revenue insights i then went on to determine the profit by just subtracting total cost from total revenue. From here i started calculating the periodical revenue of different stores and their targets.

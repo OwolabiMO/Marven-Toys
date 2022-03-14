@@ -49,6 +49,7 @@ On the asspect of data understanding, the data provided to me contained four dif
 
 
 Data Preparation
+
 This stage started by importing the csv file into the power bi and load into power query editor for proper data preparation. With the help of power query i shaped and all tables accodring to provide an accurate result. I ensured the data types were accurate and also ensure colomn quality was 100%. 
 
 ![1](https://user-images.githubusercontent.com/62305424/158252444-0ed8d373-1493-4e70-b398-b33fc3d4a280.PNG)
@@ -71,4 +72,11 @@ After entering the fomular i click enter to generate a list of date. I then navi
 
 ![roll3](https://user-images.githubusercontent.com/62305424/158253040-24be6965-6836-411b-b30d-f44a0dd48bb9.PNG)
 
-After entering the fomular i click enter to generate a list of date. I then naviagte to top icon and click on 'To table' which i then click okay. After creating the table, i added other columns in the calender table like start of the week, year etc
+
+Data Modelling
+
+To create relationship between the tables i have to connect the tables base on a common relationship or key. Power bi is optimized to work with data models, as they help to organize tables of data so as to redure redundancy and optimize efficency. To create the relationship i source for a unique identifier, for example the products table and the sales table share a similar key which is the product_ID. By doing this we can now take a product and segment them into values which will be splited among different products.All relationship cardinality i did during this stage was a one to many. I also performed data normalisation so as to reduce data redundancy and  The image below shows the data model view of all tables involve.
+
+![data modelling](https://user-images.githubusercontent.com/62305424/158258316-99e6095b-2320-44ba-adff-d4482460692d.PNG)
+
+To create relationship between the tables i have to connect the tables base on a common relationship or key. Power bi is optimized to work with data models, as they help to organize tables of data so as to redure redundancy and optimize efficency. To create the relationship i source for a unique identifier, for example the products table and the sales table share a similar key which is the product_ID. By doing this we can now take a product and segment them into values which will be splited among different products. The image below shows the data model view of all tables involve.

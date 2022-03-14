@@ -79,4 +79,3 @@ To create relationship between the tables i have to connect the tables base on a
 
 ![data modelling](https://user-images.githubusercontent.com/62305424/158258316-99e6095b-2320-44ba-adff-d4482460692d.PNG)
 
-To create relationship between the tables i have to connect the tables base on a common relationship or key. Power bi is optimized to work with data models, as they help to organize tables of data so as to redure redundancy and optimize efficency. To create the relationship i source for a unique identifier, for example the products table and the sales table share a similar key which is the product_ID. By doing this we can now take a product and segment them into values which will be splited among different products. The image below shows the data model view of all tables involve.

@@ -79,9 +79,27 @@ To create relationship between the tables i have to connect the tables base on a
 
 ![data modelling](https://user-images.githubusercontent.com/62305424/158258316-99e6095b-2320-44ba-adff-d4482460692d.PNG)
 
-##Data Analysis 
+Data Analysis 
 
 To answer key questions that would be beneficial to business decisions, there is need to analyse the data provided to gain insights which can then be transform into visuals for the stakeholders. Firstly to determine revenue i had to calculate the sumx function of sales units and mutiply them with product price. From the revenue insights i then went on to determine the profit by just subtracting total cost from total revenue. From here i started calculating the periodical revenue of different stores and their targets.
 
 ![reveue](https://user-images.githubusercontent.com/62305424/158261627-3f023c34-6b83-47c0-9f00-023765ec1e0f.PNG)
+
+Insights from the analysis
+
+For managenment to make data driven decision  on the different products it offers and the location,I have further summarized below other key insights whhich may be of help the management of Mexico Toys.
+
+1. The total profit of the company base on a revenue generated from different locations is over $4m during the course of its operations. Among all the location in the country, the airport generated the lowest profit of $378,049. 
+2. Irrespective of electronics having the lowest sale value of $99,025, it has contributed more to the profit coffers of the company with about $1,001,437 which slightly lower than than Toys($1,079,527).
+3. The top performing product is colorbuds which have a sale of about $72,988. The Downtown location carries the highest amount of profit in this product category(Toy) which is $2,248,728. 
+4. Further analysis into the sales made by different locations hightlights that Cuidad de Mexico had the highest sale in all its location which was $90,725 and was 54.33% higher than the Guanajuato location.
+
+Data Visualization
+
+I created an interactive dashboard to communicate my insights to different stakeholders and also sharing the different steps and techniques involve in my analysis. 
+Also attach here is a picture of the dashboard for your understanding.
+
+![dashboard](https://user-images.githubusercontent.com/62305424/158465620-698d50d7-f9af-4dde-98b8-8e4af74278ec.PNG)
+
+Also attach here is a picture of the dashboard for your understanding.
 

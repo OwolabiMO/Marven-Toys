@@ -101,5 +101,5 @@ Also attach here is a picture of the dashboard for your understanding.
 
 ![dashboard](https://user-images.githubusercontent.com/62305424/158465620-698d50d7-f9af-4dde-98b8-8e4af74278ec.PNG)
 
-Also attach here is a picture of the dashboard for your understanding.
+
 

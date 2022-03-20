@@ -99,7 +99,8 @@ Data Visualization
 I created an interactive dashboard to communicate my insights to different stakeholders and also sharing the different steps and techniques involve in my analysis. 
 Also attach here is a picture of the dashboard for your understanding.
 
-![New Dash](https://user-images.githubusercontent.com/62305424/159176944-e15bc02f-99d7-4b44-90b5-b3884829e1f9.PNG)
+![new dash-2](https://user-images.githubusercontent.com/62305424/159177073-df1a19db-63d3-4460-abab-d6f3236c5c6d.PNG)
+
 
 
 

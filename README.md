@@ -27,7 +27,7 @@ Other insights can be seen from the dashboard uploaded to this repository.
 
 
 
-#The Approach
+The Approach
 
 I followed this approach in modelling the solution for this business Challenge:
 

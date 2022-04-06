@@ -61,7 +61,8 @@ This stage started by importing the csv file into the power bi for proper data p
 
 ![data modelling](https://user-images.githubusercontent.com/62305424/158258316-99e6095b-2320-44ba-adff-d4482460692d.PNG)
 
-Data Analysis 
+
+## Data Analysis 
 
 To answer key questions that would be beneficial to business decisions, there is need to analyse the data provided to gain insights which can then be transform into visuals for the stakeholders. Firstly to determine revenue, i had to calculate the sumx function of sales units and mutiply them with product price. From the revenue perspective, i determine the profit by just subtracting total cost from total revenue. From here i started calculating the periodical revenue of different stores and their targets.
 

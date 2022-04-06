@@ -84,7 +84,7 @@ For managenment to make data driven decision on the different products it offers
 - Further analysis into the sales made by different locations hightlights that Cuidad de Mexico had the highest sale in all its location which was $90,725 and was 54.33% higher than the Guanajuato location.
 
 
-Data Visualization
+## Data Visualization
 
 I created an interactive dashboard to communicate my insights to different stakeholders and also share the different steps and techniques involve in my analysis. 
 Also attach here is a picture of the dashboard for your understanding.

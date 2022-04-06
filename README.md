@@ -57,7 +57,7 @@ This stage started by importing the csv file into the power bi for proper data p
 ![roll3](https://user-images.githubusercontent.com/62305424/158253040-24be6965-6836-411b-b30d-f44a0dd48bb9.PNG)
 
 
- Power bi is optimized to work with data models, as they help to organize tables of data so as to redure redundancy and optimize efficency. To create the relationship i source for a unique identifier i.e primary key which was then connected to the foreign key within the sales table. All relationship cardinality performed during this stage was a one to many relationship. Data normalisation was not left out during the modelling so as to reduce redudancy. The image below shows the data model view of all tables involve.
+ Power bi is optimized to work with data models, as they help to organize tables of data so as to reduce redundancy and optimize efficency. To create the relationship i source for a unique identifier i.e primary key in the look up table which was then connected to the foreign key within the sales table. All relationship cardinality performed during this stage was a one to many relationship. The image below shows the data model view of all tables involve.
 
 ![data modelling](https://user-images.githubusercontent.com/62305424/158258316-99e6095b-2320-44ba-adff-d4482460692d.PNG)
 

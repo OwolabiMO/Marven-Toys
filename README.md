@@ -69,11 +69,17 @@ To answer key questions that would be beneficial to business decisions, there is
 
 Further Insights from the analysis
 For managenment to make data driven decision on the different products it offers and the location,I have further summarized below other key insights whhich may be of help the management of Mexico Toys.
+
 •	The leading category among product category in Marven Toys is the Toys category which has about $221,227 and slightly bigger than greater than Arts & Crafts ($220,673)
+
 •	The total profit of the company base on a revenue generated from different locations is over $4m during the course of its operations. Among all the location in the country, the airport generated the lowest profit of $378,049.
+
 •	The total loss of sales as regards stocks on hand is $6,923,164 in total and the bigger contributor to this is Lego Bricks which has a worth of $2,045,489 in stock. 
+
 •	Irrespective of electronics having the lowest sale value of $99,025, it has contributed more to the profit coffers of the company with about $1,001,437 which slightly lower than than Toys($1,079,527).
+
 •	The top performing product is colorbuds which have a sale of about $72,988. The Downtown location carries the highest amount of profit in this product category(Toy) which is $2,248,728.
+
 •	Further analysis into the sales made by different locations hightlights that Cuidad de Mexico had the highest sale in all its location which was $90,725 and was 54.33% higher than the Guanajuato location.
 
 

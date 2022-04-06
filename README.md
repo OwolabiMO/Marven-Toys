@@ -48,8 +48,7 @@ On the asspect of data understanding, the data provided to me contained four dif
 
 ## Data Preparation & Modelling
 
-This stage started by importing the csv file into the power bi and load into power query editor for proper data preparation. With the help of power query i shaped and all tables accodring to provide an accurate result. I ensured the data types were accurate and also ensure colomn quality was 100%. 
-Since the sales and store table had a date column, I had to create a date look up table so as to be a provide a table which help in creating relationship with other tables that have dates colomn in the data modelling stage. I created a rolling calender that which will not require updating everytime. Firstly i get into Get data function and then navigate to blank query at the bottom then i use M-code to generated a starting date =date(1992,5,10) in the function bar and then click the fx icon to add a new column where i entered the following formula:
+This stage started by importing the csv file into the power bi for proper data preparation. I ensured the data types were accurate and also ensure colomn quality was 100%. Since the sales and store table had a date column, I had to create a date look up table so as to be a provide a table which help in creating relationship with other tables that have dates colomn in the data modelling stage. I created a rolling calender that which will not require updating everytime. Firstly i get into Get data function and then navigate to blank query at the bottom then i use M-code to generated a starting date =date(1992,5,10) in the function bar and then click the fx icon to add a new column where i entered the following formula:
 
   > list.date(Source,number,From(DateTime.LocalNow())-Number.From(Source),#duration(1,0,0,0))
 

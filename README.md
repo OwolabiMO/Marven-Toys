@@ -47,7 +47,7 @@ On the asspect of data understanding, the data provided to me contained four dif
 
 
 
-Data Preparation
+## Data Preparation
 
 This stage started by importing the csv file into the power bi and load into power query editor for proper data preparation. With the help of power query i shaped and all tables accodring to provide an accurate result. I ensured the data types were accurate and also ensure colomn quality was 100%. 
 Since the sales and store table had a date column, I had to create a date look up table so as to be a provide a table which help in creating relationship with other tables that have dates colomn in the data modelling stage. I created a rolling calender that which will not require updating everytime. Firstly i get into Get data function and then navigate to blank query at the bottom then i use M-code to generated a starting date =date(1992,5,10) in the function bar and then click the fx icon to add a new column where i entered the following formula:
@@ -58,9 +58,6 @@ Since the sales and store table had a date column, I had to create a date look u
 
 ![roll2](https://user-images.githubusercontent.com/62305424/158252672-2c5e14f4-2a38-4bad-8899-67680d2634f4.PNG)
 
-
-
-After entering the fomular i click enter to generate a list of date. I then naviagte to top icon and click on 'To table' which i then click okay. After creating the table, i added other columns in the calender table like start of the week, year etc
 
 ![roll3](https://user-images.githubusercontent.com/62305424/158253040-24be6965-6836-411b-b30d-f44a0dd48bb9.PNG)
 

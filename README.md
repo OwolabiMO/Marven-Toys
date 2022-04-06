@@ -47,7 +47,7 @@ On the asspect of data understanding, the data provided to me contained four dif
 
 
 
-## Data Preparation
+## Data Preparation & Modelling
 
 This stage started by importing the csv file into the power bi and load into power query editor for proper data preparation. With the help of power query i shaped and all tables accodring to provide an accurate result. I ensured the data types were accurate and also ensure colomn quality was 100%. 
 Since the sales and store table had a date column, I had to create a date look up table so as to be a provide a table which help in creating relationship with other tables that have dates colomn in the data modelling stage. I created a rolling calender that which will not require updating everytime. Firstly i get into Get data function and then navigate to blank query at the bottom then i use M-code to generated a starting date =date(1992,5,10) in the function bar and then click the fx icon to add a new column where i entered the following formula:
@@ -62,26 +62,25 @@ Since the sales and store table had a date column, I had to create a date look u
 ![roll3](https://user-images.githubusercontent.com/62305424/158253040-24be6965-6836-411b-b30d-f44a0dd48bb9.PNG)
 
 
-## Data Modelling
-
  Power bi is optimized to work with data models, as they help to organize tables of data so as to redure redundancy and optimize efficency. To create the relationship i source for a unique identifier i.e primary key which was then connected to the foreign key within the sales table. All relationship cardinality performed during this stage was a one to many relationship. Data normalisation was not left out during the modelling so as to reduce redudancy. The image below shows the data model view of all tables involve.
 
 ![data modelling](https://user-images.githubusercontent.com/62305424/158258316-99e6095b-2320-44ba-adff-d4482460692d.PNG)
 
 Data Analysis 
 
-To answer key questions that would be beneficial to business decisions, there is need to analyse the data provided to gain insights which can then be transform into visuals for the stakeholders. Firstly to determine revenue i had to calculate the sumx function of sales units and mutiply them with product price. From the revenue insights i then went on to determine the profit by just subtracting total cost from total revenue. From here i started calculating the periodical revenue of different stores and their targets.
+To answer key questions that would be beneficial to business decisions, there is need to analyse the data provided to gain insights which can then be transform into visuals for the stakeholders. Firstly to determine revenue, i had to calculate the sumx function of sales units and mutiply them with product price. From the revenue perspective, i determine the profit by just subtracting total cost from total revenue. From here i started calculating the periodical revenue of different stores and their targets.
 
 ![reveue](https://user-images.githubusercontent.com/62305424/158261627-3f023c34-6b83-47c0-9f00-023765ec1e0f.PNG)
 
-Insights from the analysis
+Further Insights from the analysis
+For managenment to make data driven decision on the different products it offers and the location,I have further summarized below other key insights whhich may be of help the management of Mexico Toys.
+•	The leading category among product category in Marven Toys is the Toys category which has about $221,227 and slightly bigger than greater than Arts & Crafts ($220,673)
+•	The total profit of the company base on a revenue generated from different locations is over $4m during the course of its operations. Among all the location in the country, the airport generated the lowest profit of $378,049.
+•	The total loss of sales as regards stocks on hand is $6,923,164 in total and the bigger contributor to this is Lego Bricks which has a worth of $2,045,489 in stock. 
+•	Irrespective of electronics having the lowest sale value of $99,025, it has contributed more to the profit coffers of the company with about $1,001,437 which slightly lower than than Toys($1,079,527).
+•	The top performing product is colorbuds which have a sale of about $72,988. The Downtown location carries the highest amount of profit in this product category(Toy) which is $2,248,728.
+•	Further analysis into the sales made by different locations hightlights that Cuidad de Mexico had the highest sale in all its location which was $90,725 and was 54.33% higher than the Guanajuato location.
 
-For managenment to make data driven decision  on the different products it offers and the location,I have further summarized below other key insights whhich may be of help the management of Mexico Toys.
-
-1. The total profit of the company base on a revenue generated from different locations is over $4m during the course of its operations. Among all the location in the country, the airport generated the lowest profit of $378,049. 
-2. Irrespective of electronics having the lowest sale value of $99,025, it has contributed more to the profit coffers of the company with about $1,001,437 which slightly lower than than Toys($1,079,527).
-3. The top performing product is colorbuds which have a sale of about $72,988. The Downtown location carries the highest amount of profit in this product category(Toy) which is $2,248,728. 
-4. Further analysis into the sales made by different locations hightlights that Cuidad de Mexico had the highest sale in all its location which was $90,725 and was 54.33% higher than the Guanajuato location.
 
 Data Visualization
 

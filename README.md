@@ -40,15 +40,12 @@ Other insights can be seen from the dashboard uploaded to this repository.
 
 The main goal of this case study is to assist mexico Toys in making business driven decision by analysing key performing aspects of its performance data and answering key questions that speaks to the business needs.  I leverage on Microsoft Power BI for my data analysis and visualization.
 
-On the asspect of data understanding, the data provided to me contained four different worksheet which are inventory, products, sales and stores. The csv provided contain fact table which are base on store, inventory and products while the fact table is a sales data. The fact tables contributed to all transaction made within the period. 
-
-![Data2](https://user-images.githubusercontent.com/62305424/158242578-f2fe7b5b-3eb4-49a6-a791-da416302286e.PNG)
-
+On the aspect of data understanding, the data provided to me contained four different worksheet which are inventory, products, sales and stores. The csv provided contain fact table which are base on store, inventory and products while the fact table is a sales data. 
 
 
 ## Data Preparation & Modelling
 
-This stage started by importing the csv file into the power bi for proper data preparation. I ensured the data types were accurate and also ensure colomn quality was 100%. Since the sales and store table had a date column, I had to create a date look up table so as to be a provide a table which help in creating relationship with other tables that have dates colomn in the data modelling stage. I created a rolling calender that which will not require updating everytime. Firstly i get into Get data function and then navigate to blank query at the bottom then i use M-code to generated a starting date =date(1992,5,10) in the function bar and then click the fx icon to add a new column where i entered the following formula:
+This stage started by importing the csv file into the power bi for proper data preparation. I ensured the data types were accurate and also ensure colomn quality was 100%. Since the sales and store table had a date column, I had to create a date look up table so as to be a provide a table which help in creating relationship with other tables that have dates column in the data modelling stage. I wrote the following m-code in a blank query to create the rolling calendar  =date(1992,5,10) and then wrote the formular below:
 
   > list.date(Source,number,From(DateTime.LocalNow())-Number.From(Source),#duration(1,0,0,0))
 

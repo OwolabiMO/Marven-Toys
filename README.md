@@ -50,16 +50,9 @@ On the asspect of data understanding, the data provided to me contained four dif
 Data Preparation
 
 This stage started by importing the csv file into the power bi and load into power query editor for proper data preparation. With the help of power query i shaped and all tables accodring to provide an accurate result. I ensured the data types were accurate and also ensure colomn quality was 100%. 
+Since the sales and store table had a date column, I had to create a date look up table so as to be a provide a table which help in creating relationship with other tables that have dates colomn in the data modelling stage. I created a rolling calender that which will not require updating everytime. Firstly i get into Get data function and then navigate to blank query at the bottom then i use M-code to generated a starting date =date(1992,5,10) in the function bar and then click the fx icon to add a new column where i entered the following formula:
 
-![1](https://user-images.githubusercontent.com/62305424/158252444-0ed8d373-1493-4e70-b398-b33fc3d4a280.PNG)
-![2](https://user-images.githubusercontent.com/62305424/158252476-f848b649-04cc-4971-b224-443363705d18.PNG)
-![3](https://user-images.githubusercontent.com/62305424/158252499-e86bea2d-fa09-420d-94c3-c8eecd579350.PNG)
-![4](https://user-images.githubusercontent.com/62305424/158252518-089a6c7c-98a4-4de2-b5fb-338e274def47.PNG)
-
-
-Since the sales and store table had a date colmn, I had to create a date look up table so as to be a provide a table which help in creating relationship with other tables that have dates colomn in the data modelling stage. I created a rolling calender that which will not require updating everytime. Firstly i get into Get data function and then navigate to blank query at the bottom then i use M-code to generated a starting date =date(1992,5,10) in the function bar and then click the fx icon to add a new column where i entered the following formula:
-
-list.date(Source,number,From(DateTime.LocalNow())-Number.From(Source),#duration(1,0,0,0))
+  > list.date(Source,number,From(DateTime.LocalNow())-Number.From(Source),#duration(1,0,0,0))
 
 ![roll1](https://user-images.githubusercontent.com/62305424/158252654-a84627f2-c168-4add-a1ba-4c359090e6b5.PNG)
 

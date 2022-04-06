@@ -89,7 +89,8 @@ For managenment to make data driven decision on the different products it offers
 I created an interactive dashboard to communicate my insights to different stakeholders and also share the different steps and techniques involve in my analysis. 
 Also attach here is a picture of the dashboard for your understanding.
 
-![new dash-2](https://user-images.githubusercontent.com/62305424/159177073-df1a19db-63d3-4460-abab-d6f3236c5c6d.PNG)
+![marven toys](https://user-images.githubusercontent.com/62305424/162070014-f97f5c1e-bbd4-4784-b340-3be05334ec3a.PNG)
+
 
 
 

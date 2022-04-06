@@ -1,9 +1,9 @@
-# Mexico-Toys
+# Marven-Toys
 Tech Stack- Power BI
 
 ## Project Description
 
-In here is the Sales & inventory data for a fictitious chain of toy stores in Mexico called Mexico Toys, including information about products, stores, daily sales transactions, and current inventory levels at each location.
+In here is the Sales & inventory data for a fictitious chain of toy stores in Mexico called Marven Toys, including information about products, stores, daily sales transactions, and current inventory levels at each location.
 
 ## Objective Statement
 
@@ -13,13 +13,15 @@ In here is the Sales & inventory data for a fictitious chain of toy stores in Me
 
 - Are sales being lost with out-of-stock products at certain locations?
 
+- How much money is tied up in inventory at the toy stores? How long will it last?
+
 From the provided analysis gotten,it was discovered that the following insights indicated the following:
 
 a) The toys category generated a profit of $1,079,527 which was slightly bigger than the electronics category($1,001,437). The difference was not much in all locations. 
 
 b) From the sales projectory, the toy category carried the highest sales amount than other category. In the last 21 days electronic had the lowest sales of $72,169.93 than others in all locations.
 
-c) Many products like mini basketball hoop and  playdoh playset among other products had low stocks which affected their sales records.
+c) Many products like mini basketball hoop and  Monopoly among other products had low stocks that affected their sales records especially at the airport location.
 
 d) The total amount of stocks in inventory was $410.240 accross all locations. 
 
@@ -27,14 +29,11 @@ Other insights can be seen from the dashboard uploaded to this repository.
 
 
 
-## The Approach
-
-I followed this approach in modelling the solution for this business Challenge:
+## Data Preparation / Cleaning 
 
 - Business and Data Understanding 
 - Data Preparation
-- Data exploration and analysis
-- Data Visualization 
+- Data Analysis
 - Recommendation
 
 ## Business Understanding

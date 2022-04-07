@@ -57,9 +57,14 @@ This stage started by importing the csv file into the power bi for proper data p
 ![roll3](https://user-images.githubusercontent.com/62305424/158253040-24be6965-6836-411b-b30d-f44a0dd48bb9.PNG)
 
 
+
+
  Power bi is optimized to work with data models, as they help organize tables to reduce redundancy and optimize efficency. To create a relationship I navigated to a unique identifier i.e primary key in each look up table which was then connected to the foreign key within the sales table. All relationship cardinality performed during this stage was a one to many relationship. The image below shows the data model view of all tables involve.
 
 ![data modelling](https://user-images.githubusercontent.com/62305424/158258316-99e6095b-2320-44ba-adff-d4482460692d.PNG)
+
+
+
 
 
 ## Data Analysis 
